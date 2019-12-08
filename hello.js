@@ -4,6 +4,11 @@ Object.defineProperty(typeof global === "object" ? global : window, "PI", {
     value:        3.141593,
     enumerable:   true,
     writable:     false,
-    network:true
+    network:true,
+   android : true,
+   ios : true,
+   
+
+
 })
 PI > 3.0;
